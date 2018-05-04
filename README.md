@@ -89,6 +89,27 @@
 
 
 
+7.安装Inspeckage
+   
+   打开xposed-下载-搜索“Inspeckage”，选择下载，勾选上，安装。
+   打开运行“Inspeckage”，将“only user app”打开， “choose target”选择你已安装在模拟器（or手机）的应用程序。
+   在macOS开启终端，adb forward tcp:8008 tcp:8008
+   然后使用macOS的浏览器打开127.0.0.1:8008即可访问。
+   
+   
+  
+8.MobSF检测平台安装
+
+   取docker官网下载docker，macOS可以再将Kitematic安装了，拉取镜像方便一些。
+   用docker安装：docker run -it -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
+   拉取完即可访问。可以使用kitematic进行镜像的管理，需要登录docker的账户。然后可以从这里直接启动MobSF，不需要输入命令行。
+    
+   (注意：docker镜像中的mobsf为v1.0版本，在github中的mobsf版本于目前更新到v0.9.5版本。此外这个docker方法安装无法对ipa进行静态分析，扫描apk
+   文件也比搭建在本地的时间长) 
+   
+   
+   
+   
 
 
 
