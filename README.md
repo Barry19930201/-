@@ -63,6 +63,20 @@
   macOS使用方法：
   python androbugs.py -f apk的路径
  （注意：如果apk进行了代码混淆及类抽取加固这些安全措施，AndBugs是无法检测到这些内容的，只能检测到能反编译的java代码。）
+ 
+ 5.下载Android Stuido，并配置adb
+   
+   我这里用的是macOS，下载macOS的Android Studio：http://tools.android-studio.org
+   
+   在安装完成之后，将android的adb工具所在目录加入环境变量里面去：
+   
+   在终端中输入 vim ~/.bash_profile ,打开 .bash_profile文件
+   按 i 进入输入模式，在文件内容的末尾加入以下内容：
+   #Setting PATH for Android ADB Tools
+   export PATH=${PATH}:/Users/xxx/Library/Android/sdk/platform-tools
+   export PATH=${PATH}:/Users/xxx/Library/Android/sdk/tools
+   这里面的xxx根据自己实际的用户名称进行修改，然后点击 esc ，输入 :wq  回车（保存并退出文本）。添加完成后输入： source ~/.bash_profile 。
+   
 
 
 
