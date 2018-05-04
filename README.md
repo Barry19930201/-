@@ -108,6 +108,14 @@
    文件也比搭建在本地的时间长) 
    
    
+   
+9.apk漏洞扫描平台
+
+ 
+   有很多扫描的平台，不一一贴出来了。个人感觉比较好用的：https://www.appscan.io/home.html
+   还有360的，但不太稳定： http://appscan.360.cn  360的可以检查克隆漏洞。
+   再多放两个： https://service.security.tencent.com/kingkong （唯一可以扫描ipa的，但作用比较小，不要太在意）
+   
    
    
 
