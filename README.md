@@ -8,7 +8,7 @@
   macOS使用方法：
 
   cd 进入到apktool存放的位置
-  java -jar apktool.jar 的 APK的路径
+  java -jar apktool.jar d APK的路径
 
 
 2.查看apk签名信息：
