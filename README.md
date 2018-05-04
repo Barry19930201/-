@@ -77,6 +77,7 @@
    export PATH=${PATH}:/Users/xxx/Library/Android/sdk/tools
    这里面的xxx根据自己实际的用户名称进行修改，然后点击 esc ，输入 :wq  回车（保存并退出文本）。添加完成后输入： source ~/.bash_profile 。
    
+
 6.安装drozer
    
    MacOS终端下载drozer：git clone https://github.com/mwrlabs/drozer/
