@@ -35,7 +35,7 @@
 
   命名为：PortSwiggerCA.cer，选择一个存放的位置。
 
-  开启夜神模拟器，使用adb（后续将如何配置adb）：
+  开启夜神模拟器，使用adb（后续将说明如何配置adb）：
 
   adb push 路径  /scared/  （路径为PortSwiggerCA.cer的路径）
 
@@ -100,8 +100,9 @@
   
 8.MobSF检测平台安装
 
-   取docker官网下载docker，macOS可以再将Kitematic安装了，拉取镜像方便一些。
+   去docker官网下载docker，可以再将Kitematic安装了，拉取镜像方便一些。
    用docker安装：docker run -it -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
+   或者直接在Kitematic里搜索“mobsf”
    拉取完即可访问。可以使用kitematic进行镜像的管理，需要登录docker的账户。然后可以从这里直接启动MobSF，不需要输入命令行。
     
    (注意：docker镜像中的mobsf为v1.0版本，在github中的mobsf版本于目前更新到v0.9.5版本。此外这个docker方法安装无法对ipa进行静态分析，扫描apk
@@ -112,9 +113,9 @@
 9.apk漏洞扫描平台
 
  
-   有很多扫描的平台，不一一贴出来了。个人感觉比较好用的：https://www.appscan.io/home.html
+   有很多扫描的平台，不一一贴出来。个人感觉比较好用是盘古的：https://www.appscan.io/home.html
    还有360的，但不太稳定： http://appscan.360.cn  360的可以检查克隆漏洞。
-   再多放两个： https://service.security.tencent.com/kingkong （唯一可以扫描ipa的，但作用比较小，不要太在意）
+    https://service.security.tencent.com/kingkong （唯一可以扫描ipa的，但作用比较小，不要太在意）
    
    
    
